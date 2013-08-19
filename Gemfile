@@ -7,6 +7,8 @@ gem 'rails', '3.2.14'
 
 gem 'sqlite3'
 gem 'carrierwave'
+gem 'bcrypt-ruby', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
